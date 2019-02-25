@@ -1,0 +1,86 @@
+html, body {
+  color: black;
+  margin: 0 0;
+  padding: 0 0;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+}
+
+.myframe {
+  margin: 0 0;
+}
+
+.myinnerframe {
+  padding: 1%;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 900px;
+  min-width: 300px;
+  min-height: 100%;
+  background-color: #FFFF00;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.row {
+  padding: 1em;
+}
+
+.label_left {
+  text-align: right;
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  padding: 5px;
+}
+
+.rightTab {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  width: 63%;
+}
+
+.input_field {
+  width: 100%;
+  height: 2em;
+  border: 2px solid #808080;
+  padding: 3px;
+  border-radius: 1em;
+}
+
+select {
+  height: 3em;
+}
+
+textarea {
+  width: 100%;
+}
+
+#submit {
+  width: 107px;
+  height: 40px;
+  border: none;
+  padding: 0;
+  outline: none;
+  font-size: 40;
+  font-weght: bold;
+  background: url(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-buttun-red-small.png) no-repeat;
+}
+
+#submit:active {
+  background: url(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-button-darkred-small.png) no-repeat;
+}
+
+.centered {
+  text-align: center;
+}
+
