@@ -73,6 +73,7 @@ textarea {
   outline: none;
   font-size: 40;
   font-weight: bold;
+  background: url(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-button-darkred-small.png) no-repeat;
   background: url(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-buttun-red-small.png) no-repeat;
 }
 
