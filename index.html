@@ -6,8 +6,14 @@
   <title>Survey Form</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/fcc.png">
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
-  <script src="js/index.js" ></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+  <script >
+    if(document.images){
+      myimage = new Image();
+      myimage.src = "https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-button-darkred-small.png";
+    }
+  </script>
 </head>
 
 <body>
@@ -58,17 +64,23 @@
         </div>
         <div class="row">
           <div class="label_left">
-            <label id="feeling-label" >Programming Approache:</label>
+            <label id="feeling-label">Programming Approache:</label>
           </div>
           <div class="rightTab">
-            <label for="Front-End"><input id="Front-End" value="0" name="Feeling" type="radio">Front-End</label><br>
-            <label for="Back-End"><input id="Back-End" value="1" name="Feeling" type="radio">Back-End</label><br>
-            <label for="Full-Stack"><input id="Full-Stack" value="2" name="Feeling" type="radio">Full-Stack</label>
+            <div>
+              <label for="Front-End"><input id="Front-End" value="0" name="Feeling" type="radio">Front-End</label>
+            </div>
+            <div>
+              <label for="Back-End"><input id="Back-End" value="1" name="Feeling" type="radio">Back-End</label>
+            </div>
+            <div>
+              <label for="Full-Stack"><input id="Full-Stack" value="2" name="Feeling" type="radio">Full-Stack</label>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="label_left">
-            <label >Your Favorite Programming Languages:</label>
+            <label>Your Favorite Programming Languages:</label>
           </div>
           <div class="rightTab">
             <label for="ccpp">
