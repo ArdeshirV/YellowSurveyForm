@@ -1,11 +1,8 @@
 html,
 body {
-  color: black;
-  margin: 0 0;
-  padding: 0 0;
-  font-weight: bold;
-  font-family: monospace;
-  background-color: black;
+background-color:yellow;
+    padding:80px;
+  margin:10px 10px 20px 20px
 }
 
 header {
@@ -17,13 +14,10 @@ header {
 }
 
 .myinnerframe {
-  padding: 1%;
-  margin: 0 auto;
-  width: 75%;
-  max-width: 900px;
-  min-width: 300px;
-  min-height: 100%;
-  background-color: #FFFF00;
+  background-color:rgba(2,0,100,0.5);
+  box-sizing: border-box;
+  padding:50px;
+  margin:20px 10px 10px 10px;
 }
 
 h1 {
@@ -67,18 +61,25 @@ textarea {
 }
 
 #submit {
-  width: 107px;
+  width: 150px;
   height: 40px;
-  border: none;
-  padding: 0;
-  outline: none;
-  font-size: 40;
+  border:none;
+ 
+  font-size: 30px;
   font-weight: bold;
-  background: url(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-buttun-red-small.png) no-repeat;
+  background: url
+
+(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-
+
+buttun-red-small.png) no-repeat;
 }
 
 #submit:active {
-  background: url(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-button-darkred-small.png) no-repeat;
+  background: url
+
+(https://raw.githubusercontent.com/ArdeshirV/resources/master/img/buttons/s-
+
+button-darkred-small.png) no-repeat;
 }
 
 .centered {
